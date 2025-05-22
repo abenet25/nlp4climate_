@@ -1,0 +1,40 @@
+# 🔁 Python: temporäre Dateien und Cache-Verzeichnisse
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 💻 Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# 📦 Paketdateien
+*.whl
+pip-wheel-metadata/
+
+# 📓 Jupyter Notebooks – temporäre Checkpoints
+.ipynb_checkpoints/
+
+# 🌐 Streamlit: temporäre Konfigurationsdateien
+.streamlit/config.toml
+.streamlit/*.json
+
+# 📈 Temporäre Dateien: Logs, Backups, Swaps
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 🤖 Modell-Dateien (falls nicht versioniert werden sollen – optional)
+# *.pkl
+# *.model
+# ⚠️ Falls du trainierte Modelle behalten möchtest, diese Zeilen auskommentieren oder anpassen
+
+# 🗃️ Dateien deines Editors/IDEs
+.vscode/
